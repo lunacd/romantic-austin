@@ -8,6 +8,8 @@ export const Collection: CollectionConfig = {
       name: "blocks",
       type: "blocks",
       blocks: [NestedBlock(1)],
+      // This is fine
+      // blocks: [NestedBlock(0)],
       required: true,
     },
   ],
